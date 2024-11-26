@@ -1,0 +1,30 @@
+
+<----------------------------CRUD operation-------------------------------------->
+
+Databse Name - School
+collection Name - students
+
+1) CREATE
+2) READ
+3) UPDATE
+4) DELETE
+
+1) For CREATE:-
+
+db.students.insertOne();
+db.students.insertMany();
+
+2) For READ:-
+
+db.students.find();
+db.students.findOne()
+
+3) For UPDATE:-
+
+db.students.updateOne();
+db.students.updateMany();
+
+4) For DELETE:-
+
+db.students.deleteOne();
+db.students.deleteMany();
